@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- CSS link  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Single:wght@100..900&family=Dancing+Script:wght@400..700&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+HU:wght@100..400&family=Playwrite+PL:wght@100..400&display=swap"
+        rel="stylesheet">
+
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- aos animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./imagess/sign.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInDown " id="username">I'm jishnu <span id="lname">kp</span>
+                </h1>
+                <p id="user-details">this is official website to showcase my journy. <br>
+                    <a id="download" href="./Blue Simple Professional CV Resume.pdf" download>VIEW BROCHER</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img class="group1" id="shape" src="./shape.png" alt="">
+                <!-- girl -->
+                <img class="group1" id="girl" src="./ladyy.png" alt="">
+
+            </div>
+        </section>
+        <!-- about me  -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImg">
+                    <img class="img1" src="./imagess/about3.jpg" alt="">
+                </div>
+
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia soluta libero
+                        veritatis, repudiandae nemo, ratione minima odit quo ex dolorum odio, suscipit tempora
+                        molestias doloribus ipsa nulla. Maiores, ex dicta?</p>
+
+                    <div class="information">
+                        <div class="inforbox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Jishnu kp</span>
+                        </div>
+                        <div class="inforbox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>90875646</span>
+                        </div>
+                        <div class="inforbox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>jishnu@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skill</span>
+            </div>
+
+            <div class="skillContent">
+                <div class="progressBars">
+                    <div class="skillImage">
+
+                        <!-- portrait div -->
+                        <div class="bars">
+                            <h3 class="barHead">Portrait</h3>
+                            <span class="barPercent">93%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar portBar" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"></div>
+                        </div>
+                        <!-- landscape -->
+                        <div class="bars">
+                            <h3 class="barHead">Landscape</h3>
+                            <span class="barPercent">82%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar landBar" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"></div>
+                        </div>
+                        <!-- editing -->
+                        <div class="bars">
+                            <h3 class="barHead">Editing</h3>
+                            <span class="barPercent">90%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar editBar" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"></div>
+                        </div>
+                        <!-- wildlife -->
+                        <div class="bars">
+                            <h3 class="barHead">Wildlife</h3>
+                            <span class="barPercent">85%</span>
+                            <div class="baseBar"></div>
+                            <div class="baseBar wildBar" data-aos="fade-right" data-aos-offset="300"
+                                data-aos-easing="ease-in-sine"></div>
+
+                        </div>
+
+                    </div>
+                    <div class="skillImage">
+                        <img class="mySkill" src="./imagess/modelskill.jpg" alt="skills">
+                    </div>
+                </div>
+        </section>
+        <!-- contact  -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead"> Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!-- linkedin  -->
+            <div class="iconCollection">
+                <div class="icon">
+                    <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="iconCollection">
+                    <div class="icon">
+                        <a href="https://github.com/"><i class="fa-brands fa-github brands"></i></a>
+                    </div>
+
+
+                    <!-- facebook -->
+                    <div class="iconCollection">
+                        <div class="icon">
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook brands"></i></a>
+                        </div>
+
+                        <!-- instagram -->
+                        <div class="iconCollection">
+                            <div class="icon">
+                                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram brands"></i></a>
+                            </div>
+
+
+
+
+
+                        </div>
+        </section>
+
+        <!-- footer  -->
+        <footer>
+            <p id="copyright">&copy; Jishnu kp Photograph portfolia - june 2024,&reg; All Rights Reserced</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-chevron-up brands"></i></a>
+            </div>
+
+
+        </footer>
+
+    </div>
+    <!-- aos animation script  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
